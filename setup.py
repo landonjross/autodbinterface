@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from distutils.core import setup
-import autodbinterface.__version__
+import autodbinterface
 
 setup(
     name='autodbinterface',

@@ -1,0 +1,6 @@
+README.txt
+autodbinterface/__init__.py
+autodbinterface.egg-info/PKG-INFO
+autodbinterface.egg-info/SOURCES.txt
+autodbinterface.egg-info/dependency_links.txt
+autodbinterface.egg-info/top_level.txt

@@ -6,11 +6,12 @@ from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 
 
-class AutoDBInterface:
+class AutoDataface:
     def __init__(self, engine_url):
         self.engine = create_engine(engine_url)
         self.Base = automap_base()
         self.Base.prepare(self.engine, reflect=True)
         self.session = Session(self.engine)
+        self.query = self.session.query
         for name, table in self.Base.classes.items():
             setattr(self, name, table)

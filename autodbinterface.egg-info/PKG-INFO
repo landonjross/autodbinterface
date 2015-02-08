@@ -1,0 +1,13 @@
+Metadata-Version: 1.0
+Name: autodbinterface
+Version: 0.1.0
+Summary: Useful towel-related stuff.
+Home-page: https://github.com/landonross/autodbinterface
+Author: Landon Ross
+Author-email: UNKNOWN
+License: LICENSE.txt
+Description: Example:
+        from autodbinterface import AutoDBInterface
+        interface = AutoDBInterface('driver://user:pass@host/database')
+        interface.table.all()
+Platform: UNKNOWN
